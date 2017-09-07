@@ -8,5 +8,5 @@ To add test queue to OpenMQ managed by Glassfish 3.1.2.2:
 asadmin create-jms-resource --restype javax.jms.Queue --property Name=TestQueue jms/TestQueue
 ```
 
-To send messages for this app you can use [jee6-jms-receiver](https://github.com/MaratKarimov/jee6-jms-sender) app.
+To send messages for this app you can use [jee6-jms-sender](https://github.com/MaratKarimov/jee6-jms-sender) app.
 
